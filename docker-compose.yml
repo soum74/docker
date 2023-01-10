@@ -1,0 +1,7 @@
+version: '3'
+services:
+  fistservice:
+    image: alpine
+    restart: always
+    container_name: MyAlpine
+    entrypoint: ps aux
